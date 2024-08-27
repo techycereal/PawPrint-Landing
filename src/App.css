@@ -1,0 +1,23 @@
+/* App.css */
+
+/* Button Base Styles */
+button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+  transform: scale(1.05); /* Scales the button to 105% of its original size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for a more noticeable effect */
+}
+
+
+image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+image:hover {
+  transform: scale(1.05); /* Scales the button to 105% of its original size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for a more noticeable effect */
+}
